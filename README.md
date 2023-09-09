@@ -8,11 +8,11 @@ A multi-container Nest/React _TODO app_ with a MongoDb database (created in Mong
 - Built the backend and frontend docker images (frontend image containing the nginx server)
 - Created a MongoDb database in Mongo Atlas which connects to the application
 - Created an ECS cluster with one EC2 instance
-- Created an ECR to push the frontend and backend docker images
-- Built and pushed the docker images
+- Created an ECR repository
+- Built and pushed the two docker images (frontend and backend) to the ECR repository
 - Created a new Task Definition in ECS
-- Created a new service in the cluster, with two containers (backend and frontend)
-- Re-built and pushed the two docker images to ECR - with a new v2 version
+- Created a new service in the cluster, with two containers containing the backend and frontend images.
 - Created environment variables (for the frontend and mongodb urls) set in a new revision of the Task Definition.
+- Re-built and pushed the two docker images to ECR - with a new v2 version
 
 
