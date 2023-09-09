@@ -45,7 +45,7 @@ app.delete("/todos/:id", async (req, res) => {
 });
 
 mongoose.connect(
-  "mongodb+srv://username:password@cluster0.9ktqpw6.mongodb.net/?retryWrites=true&w=majority",
+  process.env.MONGO-URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
