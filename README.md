@@ -19,3 +19,5 @@ A multi-container Nest/React _TODO app_ with a MongoDb database (created in Mong
 
 ## CONS
 When having an application with multiple containers running on an EC2 instance, if the application has a lot of traffic, then multiple EC2 instances would be required with scaled-up service instances. This would add extra cost. 
+
+The application can be further explored by using AWS EKS for deployment.
