@@ -6,7 +6,7 @@ A multi-container Nest/React _TODO app_ with a MongoDb database (created in Mong
 ## Steps to deployment
 
 - Built the backend and frontend docker images (frontend image containing the nginx server)
-- Created a MongoDb database in Mongo Atlas which connects to the application backend
+- Created a MongoDb database in Mongo Atlas which connects to the application
 - Created an ECS cluster with one EC2 instance
 - Created an ECR to push the frontend and backend docker images
 - Built and pushed the docker images
