@@ -3,7 +3,7 @@ A multi container Nest app deployed via AWS ECS with Docker and Nginx
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Installation - in the frontend folder run: 
 
 ```bash
 $ npm install
