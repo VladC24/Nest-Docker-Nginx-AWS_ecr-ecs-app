@@ -66,6 +66,7 @@
   },
   "scripts": {
     "start": "nodemon ./src/index"
+    "start:prod": "node ./src/index"
   },
   "keywords": [],
   "author": "",
