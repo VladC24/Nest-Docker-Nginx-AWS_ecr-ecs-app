@@ -1,4 +1,4 @@
-# Nest-Docker-Nginx-AWS_ecr-ecs-app
+# Nest-React-Docker-Nginx-AWS_ecr-ecs-app
 A multi container Nest app deployed via AWS ECS with Docker and Nginx
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
